@@ -1,0 +1,20 @@
+Questao 4
+O programa armazena os valores de 1 a 9 em um vector, depois calcula o quadrado de cada
+um desses valores e armazena em outro vector, depois imprime no terminal o resultado armazenado no
+segundo vector.
+
+Para isso foi usado:
+iterator eh um objeto que permite iterar sobre os elementos armazenados em um conteiner.
+
+std::vector , um conteiner que serve para armazenar um conjunto de elementos de forma continuar na memoria.
+
+std::vector::push_back ,  metodo para alocar um novo elemento no final do conteiner.
+
+std::trasform, funcao que permite executar sequencialmente uma operacao em um conjunto de elementos e armazena o resultado
+atravez de um output iterator.
+
+std::back_inserter cria um novo iterator que insere elementos no final de um conteiner, mas para isso o conteiner precisa
+ter definido o metodo push_back
+
+std::cout imprime os dados na saida padrao no caso o terminal.
+std::endl insere uma nova linha de caracteres no fluxo de dados.
